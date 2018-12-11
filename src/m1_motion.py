@@ -2,8 +2,8 @@
 An opportunity to explore how to make an EV3 Robot move.
 
 Authors: Dave Fisher, David Mutchler, Vibha Alangar,
-their colleagues, and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+their colleagues, and Hongyu Liu.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 # -----------------------------------------------------------------------------
 # TODO: 2.
@@ -13,11 +13,14 @@ their colleagues, and PUT_YOUR_NAME_HERE.
 # -----------------------------------------------------------------------------
 
 import simple_rosebotics as rb
-import time
+import
+import rosebotics
+
 
 def main():
     """ Calls the other functions to test/demo them. """
     go_two_seconds()
+
 
 
 def go_two_seconds():
@@ -38,9 +41,26 @@ def go_two_seconds():
 
 def run_test_go_inches():
     """ Tests the go_inches function. """
-    # TODO: 4.  Implement this function with at least 3 calls to go_inches
+    # D: 4.  Implement this function with at least 3 calls to go_inches
     #   with various inches and speeds.
 
+    #TEST1
+    expected =
+    actual = go_inches()
+    print('Test 1 Expected result: ', expected)
+    print('                actual: ', actual)
+
+   #TEST2
+    expected =
+    actual = go_inches()
+    print('Test 2 Expected result: ', expected)
+    print('                actual: ', actual)
+
+   #TEST3
+    expected =
+    actual = go_inches()
+    print('Test 3 Expected result: ', expected)
+    print('                actual: ', actual)
 
 def go_inches(inches, percent_of_max_speed):
     """
